@@ -1,0 +1,11 @@
+/home/qh/tianchi
+Traceback (most recent call last):
+  File "user_merchant_cls.py", line 224, in <module>
+    train_model()
+  File "user_merchant_cls.py", line 214, in train_model
+    trainData = np.load('user_feature.npy')
+  File "/home/qh/anaconda/lib/python2.7/site-packages/numpy/lib/npyio.py", line 393, in load
+    return format.read_array(fid)
+  File "/home/qh/anaconda/lib/python2.7/site-packages/numpy/lib/format.py", line 606, in read_array
+    array = numpy.fromfile(fp, dtype=dtype, count=count)
+KeyboardInterrupt
